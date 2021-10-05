@@ -1,0 +1,4 @@
+* @giorgiocl
+*.js @giorgiocl
+*.yml @giorgiocl
+/public/ @giorgiocl
