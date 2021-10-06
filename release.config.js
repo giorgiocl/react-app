@@ -7,10 +7,12 @@ module.exports = {
     "@semantic-release/npm",
     [
       "@semantic-release/github",
-      [
-        {path: "build.zip", label: "Build"},
-        {path: "coverage.zip", label: "Coverage"},
-      ],
+      {
+        assets: [
+          {path: "build.zip", label: "Build"},
+          {path: "coverage.zip", label: "Coverage"},
+        ],
+      },
     ],
   ],
 };
