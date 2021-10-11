@@ -1,4 +1,4 @@
-![](https://github.com/giorgiocl/react-app/workflows/CI/bandage.svg?branch=develop&event=push)
+![](https://github.com/giorgiocl/react-app/workflows/CI/bandage.svg?branch=master&event=push)
 
 # Getting Started with Create React App
 
