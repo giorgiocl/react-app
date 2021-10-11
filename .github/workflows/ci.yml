@@ -64,7 +64,7 @@ jobs:
         run: npx codecov
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
-      - name: Open issue 
+      - name: Open issue
         if: failure() && github.event_name == 'pull_request'
         run: |
           curl --request POST \
@@ -76,5 +76,3 @@ jobs:
             "body": "This issue was automatically created by the GitHub Action workflow **${{ github.workflow }}**. \n\n The commit hash was: _${{ github.sha }}_.",
             "assigness": ["${{ github.event.pull_request.user.login }}"]
             }' \
-
-
